@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Lobo Music</title>
+	</head>
+	<body>
+		<h2>Lobo Music <img src="images/cool.png"></h2>
+		<label for="inputBPM">BPM</label>
+		<input type="range" id="inputBPM" value="80" min="40" max="240"><br>
+		<label class="small">(Note, wave, attack, sustain, release, volume)</label><br>
+		<textarea id="inputMusic" class="music-input"></textarea><br>
+		<div>
+			<button id="buttonMusic">Play</button>
+			<button id="buttonStop">Stop</button>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
