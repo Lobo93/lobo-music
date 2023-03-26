@@ -94,7 +94,7 @@ function validateMusic() {
 
 	music.forEach((musicNote, index) => {
 		if (musicNote) {
-			const note = musicNote[0].substring(0, musicNote[0].length - 1).toUpperCase()
+			const note = musicNote[0].substring(0, musicNote[0].length - 1)
 			const octave = musicNote[0].charAt(musicNote[0].length - 1)
 			music[index][0] = notes[note][octave]
 			music[index][1] = music[index][1].toLowerCase()
